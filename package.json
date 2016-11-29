@@ -1,0 +1,35 @@
+{
+  "name": "skeleton-app",
+  "version": "0.0.1",
+  "description": "Skeleton app for Spring boot & angular 2",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@angular/common": "^2.2.3",
+    "@angular/compiler": "^2.2.3",
+    "@angular/core": "^2.2.3",
+    "@angular/http": "^2.2.3",
+    "@angular/platform-browser": "^2.2.3",
+    "@angular/platform-browser-dynamic": "^2.2.3",
+    "@angular/router": "^3.2.3",
+    "@angular/upgrade": "^2.2.3",
+    "core-js": "2.4.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "reflect-metadata": "0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "typings": "^2.0.0",
+    "zone.js": "^0.6.21"
+  },
+  "devDependencies": {
+    "@angular/forms": "^2.2.3",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^3.0.0-beta.9",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3",
+    "webpack-stream": "^3.2.0"
+  },
+  "scripts": {},
+  "author": "Stephen Gream",
+  "license": "BSD-3-Clause"
+}

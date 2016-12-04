@@ -3,6 +3,7 @@ package com.stephengream.skeleton.cucumber.steps;
 import com.stephengream.skeleton.SkeletonBootAngular2Application;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootContextLoader;
@@ -24,6 +25,11 @@ import static org.junit.Assert.assertEquals;
 @ContextConfiguration(classes = SkeletonBootAngular2Application.class, loader = SpringBootContextLoader.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class RequestStepDefinitions {
+    @Test
+    public void nullMethod(){
+        //Spring runner complains there's no runnable methods without this
+    }
+
     protected ResponseEntity<Void> latestResponse;
 
     @Autowired

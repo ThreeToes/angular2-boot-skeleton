@@ -6,6 +6,7 @@ it compiles and works as advertised. Use at your own peril
 This project includes
 * Angular 2 and webpack compilation of Typescript
 * Cucumber tests
+* Selenium
 
 ## Prerequisites
 You will need
@@ -13,6 +14,7 @@ You will need
 * Typings
 * Typescript
 * JDK 8
+* Chrome driver for Selenium (this one uses the one from the Ubuntu repo)
 
 ## Compiling
 Navigate to the project folder. Run `typings install`, followed by `./gradlew build`.

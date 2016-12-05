@@ -53,11 +53,6 @@ dependencies {
 	testCompile('org.seleniumhq.selenium:selenium-java:3.0.1')
 }
 
-test.doFirst {
-	//Using the ubuntu repo package
-	systemProperty "webdriver.chrome.driver", "/usr/lib/chromium-browser/chromedriver"
-}
-
 task buildDocker(type: Docker, dependsOn: build) {
 	push = false
 	applicationName = jar.baseName

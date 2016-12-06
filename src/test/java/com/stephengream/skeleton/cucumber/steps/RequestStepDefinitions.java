@@ -43,9 +43,8 @@ public class RequestStepDefinitions {
         assertEquals((long)id, (long)latestResponse.getStatusCodeValue());
     }
 
-    @When("^the client calls /([^\\s]+)")
+    @When("^the client calls (/[^\\s]+)")
     public void theClientCallsUrl(String url) throws Throwable {
-        String absoluteUrl = "/" + url;
-        latestResponse = restTemplate.getForEntity(absoluteUrl, Void.class);
+        latestResponse = restTemplate.getForEntity(url, Void.class);
     }
 }

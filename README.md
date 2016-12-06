@@ -10,7 +10,7 @@ This project includes
 
 ## Prerequisites
 You will need
-* node and npm
+* node, npm and gulp
 * Typings
 * Typescript
 * JDK 8
